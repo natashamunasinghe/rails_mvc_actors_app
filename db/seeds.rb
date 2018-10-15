@@ -12,6 +12,13 @@
         age: rand(50),
         gender: "male"
     )
-    
-    end
+end
+
+20.times do
+    Villain.create(
+        name: Faker::DcComics.villain,
+        movie: Faker::DcComics.title
+    ) 
+end
+
     
