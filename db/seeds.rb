@@ -14,7 +14,7 @@
     )
 end
 
-20.times do
+20.times do |x|
     Villain.create(
         name: Faker::DcComics.villain,
         movie: Faker::DcComics.title

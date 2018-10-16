@@ -15,6 +15,7 @@ class VillainsController < ApplicationController
     # GET /villains/new
     def new
       @villain = Villain.new
+      
     end
   
     # GET /villains/1/edit

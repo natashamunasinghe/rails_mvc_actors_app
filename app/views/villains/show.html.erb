@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<div class='container'>
+
+<p>
+  <strong>Name:</strong>
+  <%= @villain.name %>
+</p>
+
+<p>
+  <strong>Movie:</strong>
+  <%= @villain.movie %>
+</p>
+
+<%= link_to 'Edit', edit_villain_path(@villain) %> |
+<%= link_to 'Back', villain_path %>
+
+</div>
